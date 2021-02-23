@@ -1,0 +1,20 @@
+:root {
+    font-size: 20px;
+    font-family: monospace, sans-serif;
+    text-align: left;
+    --bg-primary: #202020;
+    --bg-secondary: #000000;
+    --transition-speed: 175ms;
+    
+}
+
+body {
+    font-family: monospace, sans-serif;
+    margin: 0;
+    background-image: url('images/cartographer.png');
+    background-color: var(--bg-primary);
+  }
+
+.pokedex-img {
+    max-width: 30%;
+}
