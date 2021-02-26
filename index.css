@@ -8,6 +8,9 @@
     
 }
 
+main {
+    color: #ffffff;
+}
 body {
     font-family: monospace, sans-serif;
     margin: 0;
