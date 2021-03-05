@@ -6,28 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pokemon</title>
     <link rel="shortcut icon" href="#">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <div class="container">
-            <img src="images/pokedex.png" class="pokedex-img">
-            <p>Insert the name of a pokemon or try a number!</p>
-            <form id="js-form">
-                <input type="text" name="search" id="js-search" required>
-                <input type="submit" value="Search">
-            </form>
+    <div class="container">
+        <img class="logo" src="images/pokedex.png" class="pokedex-img">
+        <form id="js-form">
+            <input type="text" name="search" id="js-search" required>
+            <input type="submit" value="Search">
+        </form>
 
-            <p id="js-error" class="error"></p>
+        <p id="js-error" class="error"></p>
 
-            <section class="section hidden">
-                <div class="results">
-                </div>
-            </section>
+        <section class="section hidden">
+            <div class="results">
+                <ol id="pokedex">
 
-        </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-        <script src="index.js"></script>
-    </main>
+                </ol>
+            </div>
+        </section>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>
